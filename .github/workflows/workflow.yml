@@ -2,7 +2,7 @@ name: Publish to TestPyPI
 
 on:
   push:
-    branches: [ main ]  # workflow jalan setiap kali push ke branch main
+    branches: [ main ]  # jalan otomatis saat push ke branch main
 
 jobs:
   build-and-publish:
